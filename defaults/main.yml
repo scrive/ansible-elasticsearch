@@ -1,6 +1,6 @@
 ---
 es_major_version: "5.x"
-es_version: "5.1.2"
+es_version: "5.2.2"
 es_version_lock: false
 es_use_repository: true
 es_apt_key: "https://artifacts.elastic.co/GPG-KEY-elasticsearch"
@@ -36,3 +36,5 @@ pid_dir: ''
 log_dir: ''
 conf_dir: ''
 data_dirs: ''
+# JVM custom parameters
+es_jvm_custom_parameters: ''
