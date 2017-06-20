@@ -27,7 +27,7 @@ es_enable_xpack: false
 es_xpack_features: ["alerting","monitoring","graph","security"]
 #These are used for internal operations performed by ansible.
 #They do not effect the current configuration
-es_api_host: "localhost"
+es_api_host: "es-master-dev.scrive.lan"
 es_api_port: 9200
 
 # Since ansible 2.2 the following variables need to be defined
